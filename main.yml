@@ -1,0 +1,7 @@
+---
+- name: Postgres Database
+  hosts: localhost
+  connection: local
+  roles:
+    - postgres
+
